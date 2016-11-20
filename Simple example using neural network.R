@@ -1,5 +1,5 @@
 #In this simple code I try to use neural network to predict default loans based on the status of previous payments from previous months.
-#This code is not good at all. It fails for roughly 15% of my training set, however I decided to upload it because it's the first time I use neural networks.
+#This code is not good at all. It fails for roughly 15% of my testing set, however I decided to upload it because it's the first time I use neural networks.
  
 #Open library after installing it.
 library("neuralnet")
