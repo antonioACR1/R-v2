@@ -68,7 +68,13 @@ summary(model)
 #therefore, there is a relationship between area and energy consumption of the entire population of hotels
 
 
+#now a simple prediction
+#suppose we have a hotel having area equal to 25000 square meters
+#what is the expected annual energy consumption for this hotel?
 
-
-
+predict(model, new=data.frame(y=c(25000)),type="response")
+#the predicted annual energy consumption is
+##> predict(model, new=data.frame(y=c(25000)),type="response")
+##       1 
+##13280.22 
 
