@@ -72,9 +72,9 @@ summary(model)
 #suppose we have a hotel having area equal to 25000 square meters
 #what is the expected annual energy consumption for this hotel?
 
-predict(model, new=data.frame(y=c(25000)),type="response")
+predict(model, new=data.frame(y=c(25000)))
 #the predicted annual energy consumption is
-##> predict(model, new=data.frame(y=c(25000)),type="response")
+##> predict(model, new=data.frame(y=c(25000)))
 ##       1 
 ##13280.22 
 
